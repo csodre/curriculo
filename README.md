@@ -1,3 +1,3 @@
 # curriculo
 
-Meu <em>Currilo</em> Digital | Portifolio
+Meu <b>Currilo Digital</b> | Portifolio
