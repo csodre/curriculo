@@ -1,14 +1,84 @@
-#cabecario {
-    background-color: burlywood;
-    height: 300px;
-}
+        html * {
+            /*reset CSS*/
+            margin: 0px;
+        }
+        
+        #cabecario {
+            background-color: #cdfc98;
+            height: 400px;
+            display: flex;
+            /*alinhar na horizontal*/
+            justify-content: center;
+            /*alinhar na vertical*/
+            align-items: center;
+            
+        }
+        
+        #imgEu {
+            width: 230px;
+            height: 300px;
+            /*ajustar proporção*/
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        
+        #corpo {
+            background-color: #505050;
+            height: 500px;
+            color: #ffff;
+            text-align: center;            
+        }
 
-#corpo {
-    background-color: darkgray;
-    height: 500px;
-}
+        h1{
+            padding-top: 30px;
+            font-size: 45px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        h2{
+            padding-bottom: 30px;
+            font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 20px;
+        }
 
-#rodape {
-    background-color: khaki;
-    height: 100px;
-}
+        .caixas{
+            height: 300px;
+            width: 300px;
+            background-color: orange;
+            border-style:solid;
+            margin: 20px;
+        }
+        .imgContainer{
+            width: 300px;
+            height: 300px;
+        }
+        .imgContainer:hover{
+            width: 320px;
+            height: 320px;
+            position: relative;
+            box-shadow: hsl(0, 0%, 10%) -10px 10px 5px;
+                      
+        }
+
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        
+        #rodape {
+            background-color: #658a36;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .icones{
+            width: 50px;
+            margin-left: 10px;
+        }
+        .icones:hover{
+            width: 60px;
+        }
