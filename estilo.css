@@ -4,7 +4,7 @@
         }
         
         #cabecario {
-            background-color: #cdfc98;
+            background-color: #b4ac00;
             height: 400px;
             display: flex;
             /*alinhar na horizontal*/
@@ -15,7 +15,7 @@
         }
         
         #imgEu {
-            width: 230px;
+            width: 300px;
             height: 300px;
             /*ajustar proporção*/
             object-fit: cover;
@@ -23,7 +23,7 @@
         }
         
         #corpo {
-            background-color: #505050;
+            background-color: #322e4f;
             height: 500px;
             color: #ffff;
             text-align: center;            
@@ -68,7 +68,7 @@
 
         
         #rodape {
-            background-color: #658a36;
+            background-color: #9b3d4b;
             height: 100px;
             display: flex;
             align-items: center;
