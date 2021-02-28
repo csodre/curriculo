@@ -1,0 +1,137 @@
+@font-face{
+    font-family: I-pixel;
+    src:url(fonts/I-pixel-u.ttf);    
+
+}
+@font-face{
+    font-family: Dogica;
+    src: url(fonts/dogica/TTF/dogicapixel.ttf);
+}
+
+@font-face{
+    font-family: Arcade;
+    src: url(fonts/ArcadeAlternate.ttf);
+}
+       
+        
+        html * {
+            /*reset CSS*/
+            margin: 0px;
+        }
+    
+        #Corpo{
+            width: 1280px;
+            height: auto;
+            margin: 0 auto;            
+            }   
+
+        #Cabecario{
+            width: 1280px;
+            height: 150px;            
+            border-bottom-style: solid ;
+            border-bottom-width: 10px;
+            margin-top: 10px;
+            background-color: #202020;
+            color: blanchedalmond;
+            
+            
+        }
+
+        .dados01{
+            float: left;
+            width: 900px;
+            padding: 10px 0 0 10px;           
+        }
+
+        .dados02{
+            float: right;
+            width: 300px;
+            text-align: right;
+            padding: 10px 10px 0 0;
+            
+            
+        }
+        .dados03{
+            width: 1280px;
+            text-align: center;
+            float: left;
+            margin-top: 30px;            
+        }
+
+        #Menu{
+            width: 1280px;
+            height: 50px;
+            clear: both;
+            margin-top: 10px;
+        }
+        #Menu ul{
+            margin: 0;
+            padding: 0;
+            width: 400px;
+        }
+        #Menu li{
+         list-style: none;         
+         display: inline-block;
+         background-color: #202020;
+         padding: 5px;
+         border-radius: 5px;
+
+        }
+
+        #Menu li a {
+            text-decoration: none;
+            color: blanchedalmond;  
+        }
+
+#Col-Esq{
+    width: 600px;
+    height: auto;
+    float: left;
+}
+#Col-Esq div{
+    text-align: justify;
+    font-size: x-large;
+}
+
+ul{
+    list-style:square;
+}
+#Col-Dir{
+    width: 600px;
+    height: auto;
+    float: right;
+}
+
+#Col-Dir div{
+    text-align: justify;
+    font-size: x-large;
+}
+
+#Rodape{
+    clear: both;
+    width: 1280px;
+    height: 100px;
+    background-color: #202020;
+    float: left;
+    margin-top: 50px;
+       
+}
+.rodape{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    
+}
+.icones{
+    margin-right: 20px;
+    width: 50px;
+}
+
+
+
+
+
+
+
+
+
