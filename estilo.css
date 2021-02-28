@@ -109,6 +109,22 @@ ul{
 
 #Rodape{
     clear: both;
+    width: 1280px;
+    height: 100px;
+    background-color: #202020;
+    float: left;
+    margin-top: 50px;
+       
+}
+.rodape{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    
+}
+#Rodape img{
+    margin-right: 20px;
+    width: 50px;
 }
 
 
