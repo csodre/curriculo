@@ -64,12 +64,12 @@
             clear: both;
             margin-top: 10px;
         }
-        ul{
+        #Menu ul{
             margin: 0;
             padding: 0;
             width: 400px;
         }
-        li{
+        #Menu li{
          list-style: none;         
          display: inline-block;
          background-color: #202020;
@@ -78,7 +78,44 @@
 
         }
 
-        li a {
+        #Menu li a {
             text-decoration: none;
             color: blanchedalmond;  
         }
+
+#Col-Esq{
+    width: 600px;
+    height: auto;
+    float: left;
+}
+#Col-Esq div{
+    text-align: justify;
+    font-size: x-large;
+}
+
+ul{
+    list-style:square;
+}
+#Col-Dir{
+    width: 600px;
+    height: auto;
+    float: right;
+}
+
+#Col-Dir div{
+    text-align: justify;
+    font-size: x-large;
+}
+
+#Rodape{
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
