@@ -8,15 +8,18 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="estilo.css">
 
+    <script src="js.js"></script>
+
 </head>
 
-<body>
+<body onload="Hora()">
     <main id="Corpo">        
         <!--Cabeçario-->
         <header id="Cabecario">
                 <div class="dados01">
-                    <h1>CESAR SODRE DE SOUZA</h1>
-                    <h2>Profissional de T.I</h2>                    
+                    <h1 class="nome">CESAR SODRE DE SOUZA</h1>
+                    <h2>Profissional de T.I</h2> 
+                    <img id="watch" src="img/bom-dia.png">            
                 </div>
                 <div class="dados02">
                     <p>São Paulo</p>
@@ -25,7 +28,7 @@
                 </div>
 
                 <div class="dados03">
-                    <p>Idade 35 anos</p>
+                    <p>Idade 36 anos</p>
                 </div>             
                 
             
@@ -168,6 +171,21 @@
         </footer>
 
     </main>
+    
+    
+    <script>
+        var teste = document.querySelector('.nome');
+        var numero;
+        teste.addEventListener('click',clicar)
+
+        function clicar(){
+            teste.style.color='red';
+        }
+
+        
+
+    </script>
+    
 </body>
 
 <!--FIM-->
